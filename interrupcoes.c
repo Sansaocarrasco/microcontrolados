@@ -19,7 +19,6 @@ int main(void){
 	CLEAR_BIT(PORTB, 5);
 	
 	SET_BIT(EICRA, 1);
-	SET_BIT(EICRA, 1);
 	SET_BIT(EICRA, 0);
 
 	SET_BIT(EIMSK, 0);
